@@ -74,12 +74,12 @@ mark_as_advanced(APSI_SECURE_COMPILE_OPTIONS)
 
 # Enable AVX implementation
 set(APSI_USE_AVX_OPTION_STR "Use AVX extensions if available")
-option(APSI_USE_AVX ${APSI_USE_AVX_OPTION_STR} ON)
+option(APSI_USE_AVX ${APSI_USE_AVX_OPTION_STR} OFF)
 mark_as_advanced(APSI_USE_AVX)
 
 # Enable AVX2 implementation
 set(APSI_USE_AVX2_OPTION_STR "Use AVX2 extensions if available")
-option(APSI_USE_AVX2 ${APSI_USE_AVX2_OPTION_STR} ON)
+option(APSI_USE_AVX2 ${APSI_USE_AVX2_OPTION_STR} OFF)
 mark_as_advanced(APSI_USE_AVX2)
 
 # Enable ASM implementation
